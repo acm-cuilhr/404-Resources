@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Database files
+*.sqlite
+*.sqlite-journal
+*.db
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files and directories
+tmp/
+temp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# npm packages locks
+package-lock.json
+yarn.lock
+
+# Debug and profiling
+*.tgz
+*.core
+*.pid
+
+# Coverage files
+coverage/
+
+# Other
+*.bak
+*.orig
+*.patch
