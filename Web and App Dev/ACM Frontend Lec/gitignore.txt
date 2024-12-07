@@ -1,0 +1,72 @@
+# Dependency directories
+node_modules/
+
+# Vite build output
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite cache
+.vite/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Thumbnails
+._*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Yarn Integrity
+.yarn-integrity
+
+# Lock files (optional based on team preference)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# eslint cache
+.eslintcache
+
+# Prettier cache
+.prettier-cache/
+
+# Coverage directory used by testing tools like Jest
+coverage/
+
+# Debugging files
+*.log
+*.gz
+*.log.[0-9]
+
+# Local Netlify folder
+.netlify/
+
+# Local Firebase folder
+.firebase/
+
+# Optional npm cache
+.npm/
+
+# Build artifacts
+*.out

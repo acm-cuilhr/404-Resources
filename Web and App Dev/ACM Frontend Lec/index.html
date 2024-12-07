@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API CRUD Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Product Management</h1>
+    
+    
+
+    <h2>Add or Update Product</h2>
+    <input type="text" id="productId" placeholder="Product ID (for update)" />
+    <input type="text" id="productName" placeholder="Product Name" />
+    <input type="number" id="productPrice" placeholder="Product Price" />
+    <button onclick="addOrUpdateProduct()">Save Product</button>
+<br>
+    <button onclick="fetchProducts()">Fetch Products</button>
+<div id="product-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
